@@ -64,4 +64,10 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+   <repository>
+      <id>nexus-site</id>
+        <url>http://localhost:8081/nexus/content/repositories/dev-local/</url>
+   </repository>
+</distributionManagement>
 </project>
