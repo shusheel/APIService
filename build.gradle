@@ -1,0 +1,13 @@
+apply plugin: 'war'
+apply plugin: 'idea'
+
+dependencies {
+    compile 'org.springframework:spring-beans:3.0.0.RELEASE'
+    compile 'org.springframework:spring-context:3.0.0.RELEASE'
+    compile 'org.springframework:spring-test:3.0.0.RELEASE'
+    testCompile 'junit:junit:4.11'
+}
+
+repositories {
+    mavenCentral()
+}
